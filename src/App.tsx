@@ -13,7 +13,6 @@ function App() {
           <div className="left">
             <div className="icon">
               <FontAwesomeIcon icon={faWindows} />
-              <div></div>
             </div>
             <div className="text">Window</div>
           </div>
