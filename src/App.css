@@ -13,6 +13,14 @@ body {
   background-size: cover;
 }
 
+@media screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+  }
+  .container {
+  }
+}
+
 .container {
   width: 30%;
   position: absolute;
@@ -58,4 +66,36 @@ body {
 
 .text {
   padding: 0 20px;
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    width: 50%;
+    top: 20%;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .container {
+    width: 60%;
+    top: 20%;
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .container {
+    width: 80%;
+    top: 15%;
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .container {
+    width: 95%;
+    top: 10%;
+    left: .5rem;
+  }
 }
